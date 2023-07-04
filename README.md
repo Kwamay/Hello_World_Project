@@ -75,9 +75,10 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-Web browser
-Code editor
-
+-Web browser
+-VS code
+-Github
+-git
 
 
 ### Setup
@@ -90,10 +91,9 @@ git clone https://github.com/Kwamay/Hello_Microverse_Project.git
 
 ### Install
 
-Install this project with:
+Initially install node package files by running the command below:
 
-cd my-project
-npm install
+-npm install
 
 
 ### Usage
@@ -102,10 +102,15 @@ To run the project, execute the following command:
 
  Open index.html using live server extension.
 
+  ### Run tests
+
+To run tests, run the following command:
+`npx hint` .  (Checks linter on html files)
+`npx stylelint "**/*.{css,scss}"` (Run linters on css files)
+
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
